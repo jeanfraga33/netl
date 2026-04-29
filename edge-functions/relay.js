@@ -1,4 +1,4 @@
-const TARGET_BASE = (Deno.env.get("TARGET_DOMAIN") || "https://google.com").replace(/\/$/, "");
+const TARGET_BASE = (Deno.env.get("TARGET_DOMAIN") || "https://cdcd.b-cdn.net").replace(/\/$/, "");
 
 const STRIP_HEADERS = new Set([
   "host",
