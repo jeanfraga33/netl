@@ -1,0 +1,6 @@
+[build]
+  edge_functions = "netl/edge-functions"
+
+[[edge_functions]]
+  path = "/*"
+  function = "relay"
